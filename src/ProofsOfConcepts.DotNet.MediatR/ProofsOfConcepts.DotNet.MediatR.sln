@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofsOfConcepts.DotNet.MediatR", "ProofsOfConcepts.DotNet.MediatR\ProofsOfConcepts.DotNet.MediatR.csproj", "{E1EBCB04-0237-49F8-9D07-BFD7DFD00670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1EBCB04-0237-49F8-9D07-BFD7DFD00670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EBCB04-0237-49F8-9D07-BFD7DFD00670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EBCB04-0237-49F8-9D07-BFD7DFD00670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EBCB04-0237-49F8-9D07-BFD7DFD00670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC8EF41F-A99C-4D66-827E-057057B5464E}
+	EndGlobalSection
+EndGlobal
