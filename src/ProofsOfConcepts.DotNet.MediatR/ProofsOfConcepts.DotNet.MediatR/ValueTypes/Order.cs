@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ProofsOfConcepts.DotNet.MediatR.ValueTypes
 {
@@ -9,14 +8,18 @@ namespace ProofsOfConcepts.DotNet.MediatR.ValueTypes
         public Guid Id { get; private set; }
         public IEnumerable<Product> ListOfProducts { get; private set; }
         public Customer Customer { get; private set; }
+        public decimal TotalCost { get; private set; }
+
         public Order(
             Guid id,
             Customer customer,
-            IEnumerable<Product> listOfProducts)
+            IEnumerable<Product> listOfProducts,
+            decimal totalCost)
         {
             Id = id;
             ListOfProducts = listOfProducts;
             Customer = customer;
+            TotalCost = totalCost;
         }
     }
 }
